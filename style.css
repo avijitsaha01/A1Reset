@@ -107,8 +107,8 @@
   padding: 5px;
 }
 .layer_image > img {
-  width: auto;
-  height: auto;
+  width: 220px;
+  height: 220px;
 }
 .layer:nth-child(2n) {
   flex-direction: row-reverse;
