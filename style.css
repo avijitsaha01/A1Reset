@@ -61,14 +61,20 @@
 }
 .layer {
   margin: 0 auto;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.3897934173669467) 0%, rgba(250,250,250,1) 0%, rgba(226,224,218,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 0.3897934173669467) 0%,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(226, 224, 218, 1) 100%
+  );
   height: 250px;
   width: 85%;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .layer_details {
   text-align: left;
@@ -77,35 +83,70 @@
   width: 50%;
 }
 .layer_details > h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.layer_details>p{
-    margin-bottom: 10px;
+.layer_details > p {
+  margin-bottom: 10px;
 }
-.layer_details>a{
-    margin-top: 15px;
-    display: inline-block;
-    background-color: #e2e0da;
-    padding: 10px;
-    border: 1px solid #000;
-    text-decoration: none;
-    text-align: center;
-    color: #000;
-    font-weight: 400;
+.layer_details > a {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #e2e0da;
+  padding: 10px;
+  border: 1px solid #000;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
 }
-.layer_image{
-    text-align: center;
-    width: 50%;
-    padding: 5px;
+.layer_image {
+  text-align: center;
+  width: 50%;
+  padding: 5px;
 }
-.layer_image> img{
-    width: auto;
-    height: auto;
+.layer_image > img {
+  width: auto;
+  height: auto;
 }
-.layer:nth-child(2n){
-    flex-direction: row-reverse;
-    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.3897934173669467) 0%, rgba(250,250,250,1) 0%, rgba(226,224,218,1) 100%);
+.layer:nth-child(2n) {
+  flex-direction: row-reverse;
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 0.3897934173669467) 0%,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(226, 224, 218, 1) 100%
+  );
 }
-.layer:nth-child(2n) >.layer_details{
-    text-align: right;
+.layer:nth-child(2n) > .layer_details {
+  text-align: right;
+}
+.inspiration_section {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  width: 70%;
+}
+.inspiration_section_head > h2 {
+  font-size: 24pt;
+  color: #0d1321;
+  margin-bottom: 20px;
+}
+.inspiration_section_head > p {
+  font-size: 15pt;
+  color: #0d1321;
+  margin-bottom: 50px;
+}
+.inspiration_section_info {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #0d1321;
+  margin-bottom: 80px;
+  border-radius: 20px;
+}
+.inspiration_section_info > iframe {
+  width: 100%;
+  min-height: 400px;
+  padding: 15px;
+  border-radius: 30px;
 }
