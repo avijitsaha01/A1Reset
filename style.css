@@ -85,6 +85,7 @@
 }
 .layer_details > h2 {
   margin-bottom: 10px;
+  font-size: 16pt;
 }
 .layer_details > p {
   margin-bottom: 10px;
@@ -177,8 +178,8 @@
 }
 .target_item {
   padding: 20px;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +198,7 @@
 }
 .target_item > p {
   color: #0d1321;
-  font-size: 14pt;
+  font-size: 12pt;
   margin-bottom: 10px;
 }
 .target_item > a {
@@ -263,11 +264,11 @@
 .target_item_next_details > a {
   color: #0d1321;
 }
-#footer{
-    width: 100%;
-    height: 100px;
-    background-color: #e2e0da;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #e2e0da;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
